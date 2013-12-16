@@ -14,7 +14,6 @@
  * Site-wide styles
  */
 @-moz-document regexp('http?:\/\/[^?]*(thepiratebay)\..+') {
-  
   /**
    * Typography
    */
@@ -199,6 +198,16 @@
     border: none !important;
     line-height: 1.65 !important;
   }
+  
+  .torpicture {
+    margin: 1px 0 0 20px !important;
+    padding: 0 !important;
+    width: 271px !important;
+  }
+  
+  .torpicture img {
+    width: 100% !important;
+  }
 
   #comments .comment {
     margin-right: 10px !important;
@@ -211,6 +220,27 @@
 
   #comments .byline {
     margin: 0.85rem 0 0 0.2rem !important;
+  }
+
+  .browse-coms {
+    color: rgba(0, 0, 0, 0.25) !important;
+    font-size: 1.125rem !important;
+    line-height: 0.7em !important;
+    padding: 1.35rem 1rem 0 1rem !important;
+  }
+
+  .browse-coms a {
+    border: none !important;
+    padding: 0 1px !important;
+  }
+
+  .browse-coms a:hover {
+    color: #009 !important;
+    text-decoration: underline !important;
+  }
+
+  .browse-coms strong {
+    font-weight: normal !important;
   }
 
   .nfo {
@@ -263,18 +293,18 @@
     line-height: 0.9rem !important;
   }
 
-  tr td:first-of-type {
+  tr td:first-of-type:not([colspan="9"]) {
     color: transparent !important;
     font-weight: normal !important;
     line-height: 1.8em !important;
   }
 
-  tr td:first-of-type a:first-of-type {
+  tr td:first-of-type:not([colspan="9"]) a:first-of-type {
     color: #009 !important;
     font-weight: bold !important;
   }
 
-  tr td:first-of-type a:nth-of-type(2) {
+  tr td:first-of-type:not([colspan="9"]) a:nth-of-type(2) {
     color: #009 !important;
   }
 
@@ -297,18 +327,23 @@
     text-align: right !important;
   }
 
-  #content > div[align="center"] {
+  #content > div[align="center"],
+  td[colspan="9"] {
     color: rgba(0, 0, 0, 0.25) !important;
-    font-size: 1.25rem !important;
-    padding-top: 1.625rem !important;
+    font-size: 1.125rem !important;
+    padding: 1.1rem 1rem 1rem 1rem !important;
   }
 
-  #content > div[align="center"] a {
+  #content > div[align="center"] a,
+  td[colspan="9"] a {
     border: none !important;
+    color: #009 !important;
     padding: 0 1px !important;
   }
 
-  #content > div[align="center"] a:hover {
+  #content > div[align="center"] a:hover,
+  td[colspan="9"] a:hover {
+    color: #009 !important;
     text-decoration: underline !important;
   }
 }
