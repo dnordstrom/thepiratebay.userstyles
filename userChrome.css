@@ -277,7 +277,7 @@
 /**
  * Browse and search result styles
  */
-@-moz-document regexp('http?:\/\/[^?]*(thepiratebay)\..+\/browse\/.+') {
+@-moz-document regexp('http?:\/\/[^?]*(thepiratebay)\..+\/(browse|search)\/.+') {
   #main-content {
     border: 1px solid rgb(210, 185, 166) !important;
   }
