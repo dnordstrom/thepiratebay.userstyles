@@ -1,4 +1,4 @@
-## Mankind’s Precious User Styles
+## Mankind's Precious User Styles
 
 ### The Pirate Bay
 
@@ -6,7 +6,7 @@ Firefox user styles for [The Pirate Bay](https://thepiratebay.org) (HTTP and HTT
 
 ### Usage
 
-Use the [Stylish](https://addons.mozilla.org/en-US/firefox/addon/stylish/) extension&mdash;or add the CSS to your [userChrome.css file](http://kb.mozillazine.org/index.php?title=UserChrome.css).
+Use the [Stylish](https://addons.mozilla.org/en-US/firefox/addon/stylish/) extension to install [the styles on userstyles.org](http://userstyles.org/styles/96337/mankind-s-precious-the-pirate-bay)&mdash;or add the CSS to your [userChrome.css file](http://kb.mozillazine.org/index.php?title=UserChrome.css).
 
 ### About Mankind’s Precious
 
