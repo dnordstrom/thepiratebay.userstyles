@@ -2,7 +2,7 @@
  * userChrome.css
  *   The Pirate Bay
  *
- * Version · 0.0.2
+ * Version · 0.1.1
  * Author  · L. D. Nordstrom <d@mrnordstrom.com>
  * License · MPL 2.0
  * 
@@ -279,7 +279,7 @@
 /**
  * Browse and search result styles
  */
-@-moz-document regexp('http?:\/\/[^?]*(thepiratebay)\..+\/(browse|search)\/.+') {
+@-moz-document regexp('https?:\/\/[^?]*(thepiratebay)\..+\/(browse|search)\/.+') {
   #main-content {
     border: 1px solid rgb(210, 185, 166) !important;
   }
@@ -293,6 +293,7 @@
 
   th {
     line-height: 0.9rem !important;
+    text-align: center !important;
   }
 
   tr td:first-of-type:not([colspan="9"]) {
@@ -324,11 +325,6 @@
     text-align: center !important;
   }
 
-  th:nth-of-type(3),
-  th:nth-of-type(4) {
-    text-align: right !important;
-  }
-
   #content > div[align="center"],
   td[colspan="9"] {
     color: rgba(0, 0, 0, 0.25) !important;
@@ -347,5 +343,21 @@
   td[colspan="9"] a:hover {
     color: #009 !important;
     text-decoration: underline !important;
+  }
+
+  tbody td[align="right"] {
+    text-align: center !important;
+  }
+
+  tr:hover td[align="right"]:not(:last-child) {
+    transform: scale(1.4) !important;
+  }
+
+  tr:hover td[align="right"]:last-child {
+    transform: scale(1.2) !important;
+  }
+
+  tbody td[align="right"]:last-child {
+    color: rgb(78, 84, 86) !important;
   }
 }
