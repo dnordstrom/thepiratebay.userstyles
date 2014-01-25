@@ -2,7 +2,7 @@
  * userChrome.css
  *   The Pirate Bay
  *
- * Version · 0.0.1
+ * Version · 0.0.2
  * Author  · L. D. Nordstrom <d@mrnordstrom.com>
  * License · MPL 2.0
  * 
@@ -15,7 +15,7 @@
 /**
  * Site-wide styles
  */
-@-moz-document regexp('http?:\/\/[^?]*(thepiratebay)\..+') {
+@-moz-document regexp('https?:\/\/[^?]*(thepiratebay)\..+') {
   /**
    * Typography
    */
