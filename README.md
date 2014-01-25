@@ -8,6 +8,10 @@ Firefox user styles for [The Pirate Bay](https://thepiratebay.org) (HTTP and HTT
 
 Use the [Stylish](https://addons.mozilla.org/en-US/firefox/addon/stylish/) extension to install [the styles on userstyles.org](http://userstyles.org/styles/96337/mankind-s-precious-the-pirate-bay)&mdash;or add the CSS to your [userChrome.css file](http://kb.mozillazine.org/index.php?title=UserChrome.css).
 
+### Screenshot
+
+![Screenshot](http://cdn.userstyles.org/style_screenshots/96337_after.jpeg?r=1390631706)
+
 ### About Mankind’s Precious
 
 Mankind’s Precious is a work-in-progress collection of user styles created for Mozilla Firefox to increase the usability and readability of sites and apps. Visually, they are inspired by Solarized, Mozilla, and Firefox OS.
